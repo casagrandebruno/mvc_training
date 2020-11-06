@@ -36,7 +36,7 @@ namespace WebMVC.Controllers
         // GET: Categorias
         public ActionResult Index()
         {
-            return View(categorias);
+            return View(categorias.OrderBy(c => c.Nome));
         }
 
         // GET: Create
@@ -52,6 +52,53 @@ namespace WebMVC.Controllers
             categorias.Add(categoria);
             categoria.CategoriaId =
                 categorias.Select(m => m.CategoriaId).Max() + 1;
+            return RedirectToAction("Index");
+        }
+
+        // GET: Edit
+        public ActionResult Edit(long id)
+        {
+            return View(categorias.Where(
+                        m => m.CategoriaId == id).First());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Categoria categoria)
+        {
+            categorias.Remove(categorias.Where(
+            c => c.CategoriaId == categoria.CategoriaId)
+            .First());
+            categorias.Add(categoria);
+            return RedirectToAction("Index");
+
+            //Para alterar sem remover:
+            //categorias[categorias.IndexOf(categorias.Where(c =>
+            //c.CategoriaId == categoria.CategoriaId).First())] =
+            //categoria;
+        }
+
+        // GET: Details
+        public ActionResult Details(long id)
+        {
+            return View(categorias.Where(
+            m => m.CategoriaId == id).First());
+        }
+
+        // GET: Delete
+        public ActionResult Delete(long id)
+        {
+            return View(categorias.Where(
+            m => m.CategoriaId == id).First());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(Categoria categoria)
+        {
+            categorias.Remove(categorias.Where(
+            c => c.CategoriaId == categoria.CategoriaId)
+            .First());
             return RedirectToAction("Index");
         }
     }
