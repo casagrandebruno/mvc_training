@@ -47,6 +47,8 @@ C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\roslyn\vbc.rsp
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\EntityFramework.dll
+C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Helpers.dll
@@ -55,6 +57,8 @@ C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Webpages.Deployment.dll
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Webpages.dll
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\EntityFramework.xml
+C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\EntityFramework.SqlServer.xml
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Razor.xml
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Webpages.xml
 C:\Users\brunoc\Documents\Estudo\ASP.NET MVC 5\repos\mvc_training\WebMVC\WebMVC\bin\System.Web.Webpages.Deployment.xml
